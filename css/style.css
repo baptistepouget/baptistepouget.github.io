@@ -1,0 +1,61 @@
+body {
+	background-color : Cornsilk;
+	font-family : sans-serif;
+}
+a {
+	color : DarkSlateGray ;
+	text-decoration: underline;
+}
+
+header, footer {
+	border-color : Lavender;
+	border-width : 1px;
+	border-left : none;
+	border-right : none;
+	border-top : solid;
+	border-bottom : solid;
+	margin-left : 0%;
+	margin-right : 0%;
+	margin-top : 10px;
+	margin-bottom : 40px;
+	padding-bottom :10px;
+	padding-top :10px;
+	height : 70px;
+	background-color :  DarkCyan;
+	width : 100%;
+}
+
+footer {
+	bottom : 0;
+	height : 35px;
+	position: fixed;
+}
+header table {
+	margin : auto;
+	border-spacing : 10px;
+}
+
+h1 {
+	color : white;
+}
+
+header table a {
+	color : black;
+	text-decoration : none;
+	
+}
+
+#body {
+	color : DarkSlateGray ;
+	border-radius : 10px;
+	background-color : Lavender;
+	border-color : DarkCyan;
+	width : 50%;
+	max-width : 800px;
+	margin-left : auto;
+	margin-right : auto;
+	position : center;
+	min-height : 500px;
+	border : solid;
+	padding : 15px;
+}
