@@ -38,6 +38,7 @@ footer {
 header table {
 	margin : auto;
 	border-spacing : 10px;
+	border : 0;
 }
 
 h1 {
