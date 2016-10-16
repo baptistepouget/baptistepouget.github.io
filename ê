@@ -30,8 +30,6 @@ header, footer {
 footer {
 	bottom : 0;
 	height : 35px;
-	margin-top : 60px;
-	margin-bottom : 10px;
 }
 header table {
 	margin : auto;
@@ -58,13 +56,7 @@ header table a {
 	margin-left : auto;
 	margin-right : auto;
 	position : center;
-	min-height : 600px;
+	min-height : 500px;
 	border : solid;
 	padding : 15px;
-}
-
-img {
-    display : block;
-    margin-left : auto;
-    margin-right : auto;
 }
