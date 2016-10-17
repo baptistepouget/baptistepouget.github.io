@@ -2,10 +2,15 @@
 <html lang="fr">
 <head>
 	<title> Baptiste POUGET </title>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link id="pagestyle" rel="stylesheet" href="css/style.css"/>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Site web de Baptiste POUGET"/> 
 	<meta name="keywords" content="Baptiste POUGET, POUGET, IUT,Aix-en-Provence, Informatique "/> 
+	<script>
+		function swapStyleSheet(sheet){
+			document.getElementById('pagestyle').setAttribute('href', sheet);
+		}
+	</script>
 </head>
 <body>
 	<header>
@@ -46,8 +51,11 @@
 	</section>
 
 	<footer>
-	Copyright (c) 2016 Baptiste Pouget <br /> 
-	La copie entière ou mot pour mot de cette page est autorisée cette autorisation devant être préservée.
+		<button onclick="swapStyleSheet('css/style.css')">Style par défaut</button>
+		<button onclick="swapStyleSheet('css/style2.css')">Style alternatif</button>
+		<br /> <br />
+		Copyright (c) 2016 Baptiste Pouget <br /> 
+		La copie entière ou mot pour mot de cette page est autorisée cette autorisation devant être préservée.
 	</footer>
 </body>
 </html>

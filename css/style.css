@@ -30,7 +30,7 @@ header, footer {
 
 footer {
 	bottom : 0;
-	height : 35px;
+	min-height : 35px;
 	margin-top : 60px;
 	margin-bottom : 10px;
         text-align : center;
