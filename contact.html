@@ -20,12 +20,29 @@
 	</table>
 	</header>
 	<section id="body">
-		<article>
-			<h2>Contact</h2>
+		<h2>Contact</h2>
 			<p>Courriel : baptiste.pouget@etu.univ-amu.fr</p>
-			<form> 
+			<form id="form" action="mailto:baptiste.pouget@etu.univ-amu.fr" method="post" enctype="text/plain" > 
+				<div>	
+					<label for="nom">Nom :</label>
+					<br/>
+ 					<input type="text" id="nom" />
+				</div>					
+				<div> 			
+					<label for="courriel">Courriel :</label>
+					<br/>
+					<input type="email" id="courriel" />
+				</div>	
+				<div>	
+					<label for="message">Commentaire :</label>
+					<br/>
+					<textarea id="message" name="commentaire" rows="14" cols="50"></textarea>
+				</div>	
+				<div>
+					<br>
+					<input type="submit" value="Envoyer"/>
+				</div>	
 			</form>
-                </article>
 	</section>
 
 	<footer>

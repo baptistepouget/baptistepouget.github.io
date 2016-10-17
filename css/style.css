@@ -57,6 +57,7 @@ header table a {
 	background-color : Lavender;
 	border-color : DarkCyan;
 	width : 50%;
+	min-width : 400px;
 	max-width : 800px;
 	margin-left : auto;
 	margin-right : auto;
@@ -71,3 +72,4 @@ img {
     margin-left : auto;
     margin-right : auto;
 }
+
