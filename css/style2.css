@@ -20,8 +20,8 @@ header , footer, #body {
 	border-spacing : 10px;
 }
 
-#body {
-
+#bod {
+	text-align : center;
 }
 
 p {
@@ -37,3 +37,5 @@ img {
 a {
 	color : black;
 }
+
+
