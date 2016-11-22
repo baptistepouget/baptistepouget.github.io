@@ -19,7 +19,9 @@ header , footer, #body {
 	margin-left : auto;
 	border-spacing : 10px;
 }
-
+.fndeco {
+    display : none;
+}
 #bod {
 	text-align : center;
 }
