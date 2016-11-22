@@ -17,7 +17,8 @@ header {
 }
 header, footer {
 	border-color : Lavender;   
-	background-color :  DarkCyan;
+        background-color : CadetBlue;
+	/*background-color :  DarkCyan;*/
 	border-width : 1px;
 	border-left : none;
 	border-right : none;
