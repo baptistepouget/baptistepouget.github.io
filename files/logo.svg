@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="dessinFd.svg">
+   sodipodi:docname="logoV2.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4253648"
-     inkscape:cx="60.306472"
-     inkscape:cy="514.94831"
+     inkscape:zoom="0.7"
+     inkscape:cx="-102.52971"
+     inkscape:cy="543.1343"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -35,7 +35,11 @@
      inkscape:window-height="984"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3336" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -52,36 +56,20 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect3416"
-       width="338.86063"
-       height="338.86063"
-       x="200.65041"
-       y="362.0126"
-       ry="43.497639"
-       inkscape:export-xdpi="33.896244"
-       inkscape:export-ydpi="33.896244" />
     <g
-       id="g3409"
-       transform="matrix(0.91409288,0,0,0.91409288,42.629706,121.23245)"
-       inkscape:export-xdpi="33.896244"
-       inkscape:export-ydpi="33.896244">
+       id="g4142"
+       inkscape:export-xdpi="743.22583"
+       inkscape:export-ydpi="743.22583">
       <path
          inkscape:connector-curvature="0"
          id="path3338"
-         d="m 240,572.3622 80,0 0,-240 -80,0 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         d="m 320,332.3622 -80,0 0,40 40,0 0,40 40,0 z"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
       <path
          inkscape:connector-curvature="0"
          id="path3340"
-         d="m 320,572.3622 0,-80 80,0 0,40 -40,0 40,0 0,40 z"
-         style="fill:#cc0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3342"
-         d="m 400,572.3622 0,-80 80,0 0,40 -40,0 0,40 z"
-         style="fill:#cc0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         d="m 280,372.3622 -80,0 0,40 40,0 -40,0 0,40 80,0 z"
+         style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
   </g>
 </svg>
