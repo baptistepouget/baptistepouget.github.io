@@ -105,6 +105,12 @@ p {
     vertical-align : middle;
 }
 
+.logoflip:hover img {
+	animation-duration: 500ms;
+  	animation-name: flipanim;
+	transform : scaleX(-1);
+}
+
 @keyframes fadein {
   from {
 	background-color: rgba(0,0,0,0);
@@ -113,5 +119,15 @@ p {
   to {
 	background-color: rgba(230,230,230,0.5)
   }
+}
+
+@keyframes flipanim {
+	from {
+		transform : scaleX(1);
+	}
+	to {
+		transform : scaleX(-1);
+	}
+
 }
 
