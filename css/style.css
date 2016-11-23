@@ -1,12 +1,12 @@
 body {
-        text-align : center;
-	background-color : Cornsilk;
-        background-color : WhiteSmoke;
-	font-family : sans-serif;
+    text-align : center;
+    background-color : Cornsilk;
+    background-color : WhiteSmoke;
+    font-family : sans-serif;
 }
 a {
-	color : DarkSlateGray ;
-	text-decoration: underline;
+    color : DarkSlateGray ;
+    text-decoration: underline;
 }
 .fndeco{
     text-align : center;
@@ -27,71 +27,71 @@ a {
 
 header {
     
-	margin-top : 10px;
-	margin-bottom : 40px;
-	padding-top : 5px;
-	padding-bottom : 5px;
-	min-height : 70px;
+    margin-top : 10px;
+    margin-bottom : 40px;
+    padding-top : 5px;
+    padding-bottom : 5px;
+    min-height : 70px;
 }
 header, footer {
-	border-color : Lavender;   
-	background-color :  DarkCyan;
-	border-width : 1px;
-	border-left : none;
-	border-right : none;
-	border-top : solid;
-	border-bottom : solid;
-       	padding-bottom :10px;
-	padding-top :10px;
-	margin-left : 0%;
-	margin-right : 0%;
-	width : 100%;
+    border-color : Lavender;   
+    background-color :  DarkCyan;
+    border-width : 1px;
+    border-left : none;
+    border-right : none;
+    border-top : solid;
+    border-bottom : solid;
+    padding-bottom :10px;
+    padding-top :10px;
+    margin-left : 0%;
+    margin-right : 0%;
+    width : 100%;
 }
 
 footer {
-	bottom : 0;
-	min-height : 35px;
-	margin-top : 60px;
-	margin-bottom : 10px;
+    bottom : 0;
+    min-height : 35px;
+    margin-top : 60px;
+    margin-bottom : 10px;
         text-align : center;
 }
 .menu {
-	margin : auto;
-	border-spacing : 10px;
-	border : 0;
+    margin : auto;
+    border-spacing : 10px;
+    border : 0;
 }
 
 h1 {
-	color : white;
+    color : white;
 }
 
 header table a {
-	color : black;
-	text-decoration : none;
+    color : black;
+    text-decoration : none;
 }
 
 header table a:hover {
- 	animation-duration: 500ms;
-  	animation-name: fadein;
-	background-color:  rgba(230,230,230,0.5);
+    animation-duration: 500ms;
+    animation-name: fadein;
+    background-color:  rgba(230,230,230,0.5);
 }
 
 #bod {
-	color : DarkSlateGray ;
-	border-radius : 10px;
-	background-color : Lavender;
-	border-color : DarkCyan;
-	width : 75%;
-	max-width : 800px;
-	margin-left : auto;
-	margin-right : auto;
-	position : center;
-	min-height : 600px;
-	border : solid;
-	padding : 15px;
-        display : inline-block;
-        text-align : left;
-        vertical-align : middle;
+    color : DarkSlateGray ;
+    border-radius : 10px;
+    background-color : Lavender;
+    border-color : DarkCyan;
+    width : 75%;
+    max-width : 800px;
+    margin-left : auto;
+    margin-right : auto;
+    position : center;
+    min-height : 600px;
+    border : solid;
+    padding : 15px;
+    display : inline-block;
+    text-align : left;
+    vertical-align : middle;
 }
 
 img {
@@ -106,28 +106,28 @@ p {
 }
 
 .logoflip:hover img {
-	animation-duration: 500ms;
-  	animation-name: flipanim;
-	transform : scaleX(-1);
+    animation-duration: 500ms;
+    animation-name: flipanim;
+    transform : scaleX(-1);
 }
 
 @keyframes fadein {
   from {
-	background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
   }
 
   to {
-	background-color: rgba(230,230,230,0.5)
+    background-color: rgba(230,230,230,0.5)
   }
 }
 
 @keyframes flipanim {
-	from {
-		transform : scaleX(1);
-	}
-	to {
-		transform : scaleX(-1);
-	}
+    from {
+        transform : scaleX(1);
+    }
+    to {
+        transform : scaleX(-1);
+    }
 
 }
 
