@@ -2,18 +2,17 @@
 <html lang="fr">
 <head>
     <title> Baptiste POUGET </title>
-    <link id="pagestyle" rel="stylesheet" href="css/style.css"/>
+    <link title="pagestyle" rel="stylesheet" type="text/css" href="css/style.css">
+    <link title="pagestyle2" rel="alternate stylesheet" type="text/css" href="css/style2.css">
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <meta charset="utf-8"/>
     <meta name="description" content="Site web de Baptiste POUGET"/> 
     <meta name="keywords" content="Baptiste POUGET, POUGET, IUT,Aix-en-Provence, Informatique "/> 
-    <script>
-        function swapStyleSheet(sheet){
-            document.getElementById('pagestyle').setAttribute('href', sheet);
-        }
-    </script>
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/bouton.js"></script>
+    <script type="text/javascript" src="scripts/script_css.js"></script>
 </head>
-<body>
+<body onload="set_style_from_cookie()">
     <header>
     <table class="menu" > 
         <tr>
@@ -45,8 +44,15 @@
     <span class="fndeco bas">}</span>
 
     <footer>
-        <button onclick="swapStyleSheet('css/style.css')">Style par défaut</button>
-        <button onclick="swapStyleSheet('css/style2.css')">Style alternatif</button>
+        <form id="changement">
+                <input id="js" type="button"
+                onclick="switch_style ('pagestyle');return false;"
+                name="theme" value="Premier style">
+                <!-- changez les thèmes -->
+                <input id="js1" type="button"
+                onclick="switch_style ('pagestyle2');return false;"
+                name="theme" value="Second style">
+        </form>
         <br />
 
         <span class="fndeco">/*</span>

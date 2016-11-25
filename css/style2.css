@@ -25,6 +25,7 @@ header , footer, #body {
 }
 #bod {
     text-align : center;
+    min-height : 600px;
 }
 
 p {
