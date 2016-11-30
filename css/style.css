@@ -100,6 +100,10 @@ img {
     margin-right : auto;
 }
 
+input {
+    border-radius : 10px;
+}
+
 p {
     display : inline-block;
     vertical-align : middle;
