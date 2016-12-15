@@ -2,6 +2,10 @@ body {
     background-color: WhiteSmoke ;
 }
 
+header, footer {
+    background-color: Gainsboro;
+}
+
 header {
     border-bottom : solid 1px;
 }
@@ -10,7 +14,7 @@ footer {
     border-top : solid 1px;
 }
 
-header , footer, #body {
+header, footer, #body {
     text-align : center;
 }
 
