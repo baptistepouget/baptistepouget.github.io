@@ -103,6 +103,10 @@ input {
     border-radius : 5px;
 }
 
+input, textarea {
+  width:100%
+}
+
 p {
     display : inline-block;
     vertical-align : middle;
@@ -133,4 +137,5 @@ p {
     }
 
 }
+
 
