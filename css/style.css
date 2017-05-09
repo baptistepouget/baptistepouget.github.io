@@ -163,7 +163,7 @@ p {
     h3 {
     font-size : 160%;
     }
-    p {
+    p, a {
     font-size :150%;
     }
 }
