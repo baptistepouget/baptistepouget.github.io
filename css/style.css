@@ -138,4 +138,16 @@ p {
 
 }
 
+@media (max-width : 1200px){ 
+    .fndeco {
+    display : none;
+    }
+    #bod {
+    max-width : 95%;
+    width : 100%;
+    }
+    header table a {
+    font-size : 20px;
+    }
+}
 
