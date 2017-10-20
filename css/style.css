@@ -112,11 +112,13 @@ p {
     vertical-align : middle;
 }
 
-.logoflip:hover img {
-    animation-duration: 500ms;
+.logoflip img {
+    animation-duration: 30s;
     animation-name: flipanim;
+    animation-iteration-count: infinite;
     transform : scaleX(-1);
 }
+
 
 @keyframes fadein {
   from {
@@ -129,13 +131,12 @@ p {
 }
 
 @keyframes flipanim {
-    from {
+    0%, 100% {
         transform : scaleX(1);
     }
-    to {
+    50% {
         transform : scaleX(-1);
     }
-
 }
 
 @media (max-width : 1200px){ 
